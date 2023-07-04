@@ -52,35 +52,6 @@ require '../templates/header.php';
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper style3">
-    <div class="inner">
-        <div id="flexgrid">
-            <div>
-                <header>
-                    <h3 style="font-family: 'Bai Jamjuree';">Learning as a Team</h3>
-                </header>
-                <p style="font-family: 'Bai Jamjuree';">We want to give everyone a chance to learn about robotics and
-                    its applications to the world.</p>
-            </div>
-            <div>
-                <header>
-                    <h3 style="font-family: 'Bai Jamjuree';">Collaboration</h3>
-                </header>
-                <p style="font-family: 'Bai Jamjuree';">Blizzard Robotics promotes working together and helping each
-                    other. </p>
-            </div>
-            <div>
-                <header>
-                    <h3 style="font-family: 'Bai Jamjuree';">Having FUN</h3>
-                </header>
-                <p style="font-family: 'Bai Jamjuree';">We make sure to have fun, even when times get stressful.
-                    Positivity is key!</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Three -->
 <section id="three" class="wrapper style2">
     <div class="inner">
         <div class="grid-style">
@@ -135,7 +106,7 @@ require '../templates/header.php';
     </div>
 </section>
 
-<!-- Four -->
+<!-- Three -->
 <section id="four" class="wrapper style3">
     <div class="inner">
 
