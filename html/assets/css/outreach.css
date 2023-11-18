@@ -1,0 +1,60 @@
+.outreach-embeds {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.outreach-embeds > div > img {
+	width: 100%;
+	margin-top: 3em;
+}
+
+.outreach-embeds > div > embed {
+	width: 500px;
+	height: 700px;
+	margin-top: 3em;
+}
+
+.outreach-container {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	color: white;
+	/* background-color: #fff; */
+	/* border-radius: 5px; */
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.outreach-card {
+	/* border: 1px solid #ddd; */
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.outreach-card img {
+	width: 100%;
+	height: auto;
+}
+
+.outreach-gallery {
+	display: flex;
+	overflow-x: auto;
+}
+
+.outreach-gallery img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.outreach-card-content {
+	/* padding: 20px; */
+}

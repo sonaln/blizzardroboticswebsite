@@ -43,49 +43,8 @@ using computer science and robotics.">
 		* {
 			cursor: default;
 		}
-		.outreach-container {
-			max-width: 1200px;
-			margin: 20px auto;
-			padding: 20px;
-			color: white;
-			/* background-color: #fff; */
-			/* border-radius: 5px; */
-			/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-		}
-
-		.outreach-card {
-			/* border: 1px solid #ddd; */
-			border-radius: 5px;
-			overflow: hidden;
-			margin-bottom: 20px;
-			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.outreach-card img {
-			width: 100%;
-			height: auto;
-		}
-
-		.outreach-gallery {
-			display: flex;
-			overflow-x: auto;
-		}
-
-		.outreach-gallery img {
-			width: 100px;
-			height: 100px;
-			object-fit: cover;
-			margin-right: 10px;
-			border-radius: 5px;
-		}
-
-		.outreach-card-content {
-			/* padding: 20px; */
-		}
 	</style>
+	<link rel="stylesheet" href="./assets/css/outreach.css">
 </head>
 
 <body style='font-family: "Bai Jamjuree";' id="swup" class="noselect transition-fade">
@@ -124,12 +83,15 @@ using computer science and robotics.">
 	</nav>
 	<!-- Two -->
 	<section id="one" class="wrapper style2">
+		<div style="display: flex; justify-content: center; align-items: center;">
+			<h1 style="color:white; font-size: 5em;">Blizzard Outreach Events</h1>
+		</div>
 		<div class="outreach-container">
 			<div class="outreach-card">
 				<div>
 					<div class="outreach-gallery">
-					  <!-- <img src="event1_1.jpg" alt="Event 1 Image 1"> -->
-					  <!-- <img src="event1_2.jpg" alt="Event 1 Image 2"> -->
+					  <img src="./logo.png" alt="Event 1 Image 1">
+					  <img src="./logo.png" alt="Event 1 Image 1">
 					  <!-- Add more images as needed -->
 					</div>
 					<div class="outreach-card-content">
@@ -241,10 +203,12 @@ using computer science and robotics.">
 					</div>
 				</div>
 			</div>
-			<div>
-				<embed src="./assets/blizzardpdf.pdf" width="500" height="375" 
-	   type="application/pdf">
-				<img src="./assets/qrcodepdf.png" alt="Event 1 Image 1">
+			<div class="outreach-embeds">
+				<div>
+					<embed src="./assets/blizzardpdf.pdf" height="750" type="application/pdf">
+		   			<br>
+					<img src="./assets/qrcodepdf.png" alt="Event 1 Image 1">
+				</div>
 			</div>
 		  </div>
 	</section>
